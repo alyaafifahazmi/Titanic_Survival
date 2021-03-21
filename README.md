@@ -27,3 +27,11 @@ Source: Kaggle Competition - [Titanic - Machine Learning from Disaster](https://
       - Surviving rate is higher following passenger fare (Fare) and ticket class (Pclass)
 ![heatmap](https://github.com/alyaafifahazmi/Titanic_Survival/blob/main/heatmap_titanic.png)
 
+## Model Building
+
+Use Random Forest Classifier
+(WIP: to compare with other model)
+
+## Model Performance
+Accuracy Score: 0.83 (by only using train data and split it with train_test_split)
+(WIP: To combine train and test data)
