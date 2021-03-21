@@ -25,3 +25,5 @@ Source: Kaggle Competition - [Titanic - Machine Learning from Disaster](https://
 5. Explore the survival rate following gender
 6. Use heatmap correlation to see correlation between attributes
       - Surviving rate is higher following passenger fare (Fare) and ticket class (Pclass)
+![heatmap](https://github.com/alyaafifahazmi/Titanic_Survival/blob/main/heatmap_titanic.png)
+
