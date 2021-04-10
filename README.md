@@ -69,22 +69,32 @@ The congestion of people to go to exit may influence the number of survivals.
 Train data and test data are combined. 
 Total 1309 entries. 
 
-1. Age: 263 nulls
-      -> Use median value as mostly are 28 years old
+
+1. Age: 263 null
+
+-> Use median value as mostly are 28 years old
+
 
 2. Fare: 1 null 
-      -> The missing fare is from Mr. Thomas Storey from 3rd class. 
-      -> Fill in the null with the median fare from 3rd class.
+
+-> The missing fare is from Mr. Thomas Storey from 3rd class. 
+      
+-> Fill in the null with the median fare from 3rd class.
+
 
 3. Cabin: 1014 null
 
 ![cabinclass_pclass](https://github.com/alyaafifahazmi/Titanic_Survival/blob/main/cabinclass_pclass.png)
 
--> Many 1st class passenger were staying in cabin class B and C. 
--> Filling in 1014 nulls with assumptions may cause biased results. 
+-> Many 1st class passenger were staying in cabin class B and C.
+
+-> Filling in 1014 null with assumptions may cause biased results. 
+
 -> It's best to leave the attributes to train the data. 
 
+
 4. Embarked: 2 null
+
 
 
 ## Model Building
