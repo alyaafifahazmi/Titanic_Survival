@@ -18,6 +18,7 @@ Source: Kaggle Competition - [Titanic - Machine Learning from Disaster](https://
 ## Data Exploratory
 
 ### Sketch Ideas
+
 1. Use info() and describe() to get overview of the data
 2. Check out if separating the attributes following numerical data or categorical will be helpful.
       - Considering to use standard scaler for numerical data
@@ -79,9 +80,9 @@ Total 1309 entries.
 
 ![cabinclass_pclass](https://github.com/alyaafifahazmi/Titanic_Survival/blob/main/cabinclass_pclass.png)
 
-      -> Many 1st class passenger were staying in cabin class B and C. 
-      -> Filling in 1014 nulls with assumptions may cause biased results. 
-      -> It's best to leave the attributes to train the data. 
+-> Many 1st class passenger were staying in cabin class B and C. 
+-> Filling in 1014 nulls with assumptions may cause biased results. 
+-> It's best to leave the attributes to train the data. 
 
 4. Embarked: 2 null
 
